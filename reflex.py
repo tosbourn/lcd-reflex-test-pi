@@ -13,4 +13,4 @@ if __name__ == "__main__":
     cad.lcd.display_off()
     cad.lcd.backlight_off()
   else:
-    cad.lcd.write("Hello, World")
+    cad.lcd.write("Reflex Testing Time Press any button to continue")
