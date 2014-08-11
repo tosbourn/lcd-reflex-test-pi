@@ -7,10 +7,13 @@ import pifacecad
 
 if __name__ == "__main__":
   cad = pifacecad.PiFaceCAD()
+  lcd = cad.lcd
+  lcd.backlight_on()
+  lcd.blink_off()
 
   if "clear" in sys.argv:
-    cad.lcd.clear()
-    cad.lcd.display_off()
-    cad.lcd.backlight_off()
+    lcd.clear()
+    lcd.display_off()
+    lcd.backlight_off()
   else:
-    cad.lcd.write("Reflex Testing Time Press any button to continue")
+    lcd.write("Reflex Testing Time!")
