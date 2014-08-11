@@ -16,4 +16,4 @@ if __name__ == "__main__":
     lcd.display_off()
     lcd.backlight_off()
   else:
-    lcd.write("Reflex Testing Time!")
+    lcd.write("Reflex Testing\nTime!")
